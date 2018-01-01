@@ -14,6 +14,7 @@ function EditorCodeMirror(editorElement, settings) {
         'value': '',
         'autofocus': true,
         'matchBrackets': true,
+        'keyMap': 'vim',
         'highlightSelectionMatches': {
           minChars: 1,
           delay: 0,
